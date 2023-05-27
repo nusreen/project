@@ -74,24 +74,36 @@
 
         <ul class="nav-links">
             <li>
-                <a href="homeowner.php">
+                <a href="indexuser.php">
                     <i class='bx bxs-home-smile'></i>
                     <span class="link_name">หน้าหลัก</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="homeowner.php">หน้าหลัก</a></li>
+                    <li><a class="link_name" href="indexuser.php">หน้าหลัก</a></li>
                 </ul>
             </li>
             <li>
                 <div class="iocn-link">
                     <a href="cat/add_cat.php">
                         <i class='bx bxs-calendar-heart'></i>
+                        <span class="link_name">กรอกข้อมูลแมว</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="cat/add_cat.php">กรอกข้อมูลแมว</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="cat/show_cat.php">
+                        <i class='bx bxs-calendar-heart'></i>
                         <span class="link_name">ข้อมูลแมว</span>
                     </a>
                     <i class='bx bxs-chevron-down arrow'></i>
                 </div>
                 <ul class="sub-menu">
-                    <li><a href="cat/add_cat.php">ข้อมูลแมว</a></li>
+                    <li><a href="cat/show_cat.php">ข้อมูลแมว</a></li>
                 </ul>
             </li>
             <li>
@@ -117,31 +129,20 @@
         </div>
         <div class="container">
             <div class="row text-center py-5">
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                <div class="col-md-4 col-sm-6 my-3 my-md-0">
                     <div class="card shadow">
                         <div>
-                            <img style="width: 300px; height: 210px;" src="image/เวลาให้อาหาร.png" alt="profileImg"
+                            <img style="width: 700px; height: 550px;" src="image/เวลาให้อาหาร.png" alt="profileImg"
                                 class="img-fluid card-img-top">
                         </div>
                         
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                <div class="col-md-4 col-sm-6 my-3 my-md-0">
                     <div class="card shadow">
                         <div>
-                            <img style="width: 300px; height: 210px;" src="image/ราคาห้อง.png" alt="profileImg"
-                                class="img-fluid card-img-top">
-                        </div>
-                        
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
-                    <div class="card shadow">
-                        <div>
-                            <img style="width: 300px; height: 210px;" src="image/อาหาร.png" alt="profileImg"
+                            <img style="width: 700px; height: 550px;" src="image/ราคาห้อง.png" alt="profileImg"
                                 class="img-fluid card-img-top">
                         </div>
                         
@@ -149,65 +150,13 @@
 
                 </div>
 
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                <div class="col-md-4 col-sm-6 my-3 my-md-0">
                     <div class="card shadow">
                         <div>
-                            <img style="width: 300px; height: 210px;" src="image/15.jpg" alt="profileImg"
+                            <img style="width: 800px; height: 550px;" src="image/อาหาร.png" alt="profileImg"
                                 class="img-fluid card-img-top">
                         </div>
                         
-                    </div>
-                    <br>
-                </div>
-
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
-                    <div class="card shadow">
-                        <div>
-                            <img style="width: 300px; height: 200px;" src="image/9.jpg" alt="profileImg"
-                                class="img-fluid card-img-top">
-                        </div>
-                        <div class="card-body">
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
-                    <div class="card shadow">
-                        <div>
-                            <img style="width: 300px; height: 200px;" src="image/8.jpg" alt="profileImg"
-                                class="img-fluid card-img-top">
-                        </div>
-                        <div class="card-body">
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
-                    <div class="card shadow">
-                        <div>
-                            <img style="width: 300px; height: 200px;" src="image/10.jpg" alt="profileImg"
-                                class="img-fluid card-img-top">
-                        </div>
-                        <div class="card-body">
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-3 col-sm-6 my-3 my-md-0">
-                    <div class="card shadow">
-                        <div>
-                            <img style="width: 300px; height: 200px;" src="image/14.jpg" alt="profileImg"
-                                class="img-fluid card-img-top">
-                        </div>
-                        <div class="card-body">
-
-                        </div>
                     </div>
 
                 </div>

@@ -64,8 +64,8 @@ require_once "../config/config_sqli.php";
                     <label for="">เพศ</label>
                     <select name="sex" class="form-select" require>
                         <option value="" selected hidden>--- เลือกเพศ ---</option>
-                        <option value="ผู้">ผู้</option>
-                        <option value="เมีย">เมีย</option>
+                        <option value="ผู้">เพศผู้</option>
+                        <option value="เมีย">เพศเมีย</option>
                     </select>
                 </div>
             </div>
@@ -80,6 +80,7 @@ require_once "../config/config_sqli.php";
                     <select name="cat_food" class="form-select" require>
                         <option value="" selected hidden>--- เลือกประเภทอาหาร ---</option>
                         <option value="อาหารเม็ด">อาหารเม็ด</option>
+                        <option value="อาหารเม็ด">อาหารเปียก</option>
                         <option value="นำอาหารมาเอง">นำอาหารมาเอง</option>
                     </select>
                 </div>

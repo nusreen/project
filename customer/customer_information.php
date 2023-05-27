@@ -102,16 +102,30 @@ require_once "../config/config_sqli.php";
 
             <li>
                 <div class="iocn-link">
-                    <a href="deposit.php">
+                    <a href="../deposit.php">
                         <i class='bx bxs-basket'></i>
                         <span class="link_name">รับฝากเลี้งแมว</span>
                     </a>
                 </div>
                 <ul class="sub-menu">
-                    <li><a href="deposit.php">รับฝากเลี้งแมว</a></li>
+                    <li><a href="../deposit.php">รับฝากเลี้งแมว</a></li>
                 </ul>
             </li>
 
+            <li>
+                <div class="iocn-link">
+                    <a>
+                        <i class='bx bxs-analyse'></i>
+                        <span class="link_name">เรียกดูข้อมูล</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="../customer/customer_information.php">ข้อมูลลูกค้า</a></li>
+                    <li><a href="../customer/cat_information.php">ข้อมูลแมว</a></li>
+
+                </ul>
+            </li>
             <li>
                 <div class="iocn-link">
                     <a>
@@ -121,8 +135,7 @@ require_once "../config/config_sqli.php";
                     <i class='bx bxs-chevron-down arrow'></i>
                 </div>
                 <ul class="sub-menu">
-                    <li><a href="../customer/customer_information.php">ข้อมูลลูกค้า</a></li>
-                    <li><a href="../customer/cat_information.php">ข้อมูลแมว</a></li>
+
                     <li><a href="../room/show_room.php">ข้อมูลห้องพัก</a></li>
                     <li><a href="../food/show_food.php">ข้อมูลอาหาร</a></li>
                 </ul>
@@ -130,41 +143,39 @@ require_once "../config/config_sqli.php";
 
             <li>
                 <div class="iocn-link">
-                    <a href="return.php">
+                    <a href="../return.php">
                         <i class='bx bxs-store-alt'></i>
                         <span class="link_name">รับแมวคืน</span>
                     </a>
                 </div>
                 <ul class="sub-menu">
-                    <li><a href="return.php">รับแมวคืน</a></li>
+                    <li><a href="../return.php">รับแมวคืน</a></li>
                 </ul>
             </li>
 
             <li>
                 <div class="iocn-link">
-                    <a href="material/cutstock_material.php">
+                    <a href="../finance.php">
                         <i class='bx bx-cut'></i>
                         <span class="link_name">การเงิน</span>
                     </a>
                 </div>
                 <ul class="sub-menu">
-                    <li><a href="material/cutstock_material.php">การเงิน</a></li>
+                    <li><a href="../finance.php">การเงิน</a></li>
                 </ul>
             </li>
 
-
             <li>
                 <div class="iocn-link">
-                    <a href="material/manage_material.php">
+                    <a href="../report.php">
                         <i class='bx bxs-basket'></i>
                         <span class="link_name">จัดทำรายงาน</span>
                     </a>
                 </div>
                 <ul class="sub-menu">
-                    <li><a href="material/manage_material.php">จัดทำรายงานค่าห้องพักและค่าอาหาร</a></li>
+                    <li><a href="../report.php">จัดทำรายงานค่าห้องพักและค่าอาหาร</a></li>
                 </ul>
             </li>
-
             <li>
                 <div class="profile-details">
                     <div class="profile-content">
@@ -173,7 +184,7 @@ require_once "../config/config_sqli.php";
                     <div class="name-job">
                         <div class="profile_name">เจ้าของร้าน</div>
                         <div class="job"> 
-                        <h6><?php echo $name." ".$lastname; ?>
+                        <h6> <?php echo $name." ".$lastname; ?>
                         </div>
                     </div>
                     <a href="indexuser.php?logout='1'"> <i class='bx bx-log-out' id="logout"></i> </a>

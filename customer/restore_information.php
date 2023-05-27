@@ -177,15 +177,28 @@ require_once "../config/configpdo.php";
                 <div class="iocn-link">
                     <a>
                         <i class='bx bxs-analyse'></i>
+                        <span class="link_name">เรียกดูข้อมูล</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="customer/customer_information.php">ข้อมูลลูกค้า</a></li>
+                    <li><a href="customer/cat_information.php">ข้อมูลแมว</a></li>
+
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a>
+                        <i class='bx bxs-analyse'></i>
                         <span class="link_name">จัดการข้อมูล</span>
                     </a>
                     <i class='bx bxs-chevron-down arrow'></i>
                 </div>
                 <ul class="sub-menu">
-                    <li><a href="../customer/customer_information.php">ข้อมูลลูกค้า</a></li>
-                    <li><a href="../customer/cat_information.php">ข้อมูลแมว</a></li>
-                    <li><a href="../room/show_room.php">ข้อมูลห้องพัก</a></li>
-                    <li><a href="../food/show_food.php">ข้อมูลอาหาร</a></li>
+
+                    <li><a href="room/show_room.php">ข้อมูลห้องพัก</a></li>
+                    <li><a href="food/show_food.php">ข้อมูลอาหาร</a></li>
                 </ul>
             </li>
 

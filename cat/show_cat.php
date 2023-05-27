@@ -98,6 +98,18 @@ require_once "../config/config_sqli.php";
             </li>
             <li>
                 <div class="iocn-link">
+                    <a href="../cat/add_cat.php">
+                        <i class='bx bxs-calendar-heart'></i>
+                        <span class="link_name">กรอกข้อมูลแมว</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a href="../cat/add_cat.php">กรอกข้อมูลแมว</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
                     <a href="../cat/show_cat.php">
                         <i class='bx bxs-calendar-heart'></i>
                         <span class="link_name">ข้อมูลแมว</span>
@@ -137,7 +149,7 @@ require_once "../config/config_sqli.php";
         <div class=" h4 text-center alert alert-danger mb-4 mt-4" role="alert"> ข้อมูลแมว</div>
         <hr>
         <a href="add_cat.php" class="btn btn-success mb-4"><i class="bi bi-plus-circle-fill"></i> เพิ่มข้อมูล</a>
-        <a href="restore_cat.php" class="btn btn-outline-info mb-4"><i class="bi bi-trash3"></i> คืนค่าข้อมูล</a>
+        
         <table id="datatableid" class="table table-striped table-hover table-bordered">
             <thead>
                 <tr>
